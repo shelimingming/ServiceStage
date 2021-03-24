@@ -13,6 +13,6 @@ public class HelloController {
     @GetMapping("hello")
     public String hello(String name) {
         logger.info("hello " + name);
-        return "hello " + name;
+        return "hello " + name + "：2";
     }
 }

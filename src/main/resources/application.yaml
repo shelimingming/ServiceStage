@@ -1,14 +1,5 @@
 spring:
   application:
     name: demo
-  cloud:
-    servicecomb:
-      discovery:
-        address: https://cse.cn-east-3.myhuaweicloud.com
-        watch: false
-      credentials:
-        enabled: true
-        accessKey: IYVKBOP6VSU5XIVBH59X
-        secretKey: AS3CJiYuapB03gbOKF2jG3ZCep1cCSR6VLGkhN8P
-        project: cn-east-3
-        akskCustomCipher: default
+server:
+  port: 8080
